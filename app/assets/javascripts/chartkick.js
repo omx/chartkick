@@ -645,7 +645,7 @@
 
           var data = new google.visualization.DataTable();
           data.addColumn("string", "");
-          data.addColumn("number", "Value");
+          data.addColumn("number", options.tooltip.text || "Value");
           data.addRows(chart.data);
 
           chart.chart = new google.visualization.GeoChart(chart.element);
