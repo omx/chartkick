@@ -1,3 +1,98 @@
+## 2.2.4 [unreleased]
+
+- Added compatibility with Rails API
+
+## 2.2.3
+
+- Updated Chartkick.js to 2.2.3
+- Updated Chart.js to 2.5.0
+
+## 2.2.2
+
+- Updated Chartkick.js to 2.2.2
+
+## 2.2.1
+
+- Updated Chartkick.js to 2.2.1
+
+## 2.2.0
+
+- Updated Chartkick.js to 2.2.0
+- Improved JavaScript API
+- Added `download` option - *Chart.js only*
+- Added `refresh` option
+- Added `donut` option to pie chart
+
+## 2.1.3
+
+- Updated Chartkick.js to 2.1.2 - fixes missing zero values for Chart.js
+
+## 2.1.2
+
+- Added `defer` option
+- Added `nonce` option
+- Updated Chartkick.js to 2.1.1
+
+## 2.1.1
+
+- Use custom version of Chart.js to fix label overlap
+
+## 2.1.0
+
+- Added basic support for new Google Charts loader
+- Added `configure` function
+- Dropped jQuery and Zepto dependencies for AJAX
+- Updated Chart.js to 2.2.2
+
+## 2.0.2
+
+- Updated Chartkick.js to 2.0.1
+- Updated Chart.js to 2.2.1
+
+## 2.0.1
+
+- Small Chartkick.js fixes
+- Updated Chart.js to 2.2.0
+
+## 2.0.0
+
+- Chart.js is now the default adapter - yay open source!
+- Axis types are automatically detected - no need for `discrete: true`
+- Better date support
+- New JavaScript API
+
+## 1.5.2
+
+- Fixed Sprockets error
+
+## 1.5.1
+
+- Updated chartkick.js to latest version
+- Included `Chart.bundle.js`
+
+## 1.5.0
+
+- Added Chart.js adapter **beta**
+- Fixed line height on timeline charts
+
+## 1.4.2
+
+- Added `width` option
+- Added `label` option
+- Added support for `stacked: false` for area charts
+- Lazy load adapters
+- Better tooltip for dates for Google Charts
+- Fixed asset precompilation issue with Rails 5
+
+## 1.4.1
+
+- Fixed regression with `min: nil`
+
+## 1.4.0
+
+- Added scatter chart
+- Added axis titles
+
 ## 1.3.2
 
 - Fixed `except` error when not using Rails
