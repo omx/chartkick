@@ -1,3 +1,5 @@
+# 2020-09-16 Marked as archived -- Project not in use
+
 # Chartkick
 
 Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!
